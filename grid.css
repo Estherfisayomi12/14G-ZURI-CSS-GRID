@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 93.75%;
+}
+
+body{
+    max-width: 1440px;
+    font-family: 'Lexend Deca', sans-serif;    
+    line-height: 1.6;
+    font-weight: 400;
+
+    background-color: hsl(0, 0%, 95%);
+
+    color: hsl(0, 0%, 95%);
+
+}
+
+.container{
+    max-width: 1440px;
+    padding: 5rem 0;
+    display: grid;
+    justify-content: center;
+}
+
+.header{
+    display: grid;
+    justify-content: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header button{
+    background-color: hsl(179, 100%, 13%) ;
+    transition: none;
+}
+
+.header button:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.boxes{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+
+    align-items: start;
+    border-radius: 8px;
+    overflow: hidden;
+
+
+}
+
+.box{
+    padding: 6rem 3.5rem 4rem 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+
+
+    align-self: start;
+
+    box-shadow: 0 .1rem .2rem #000000cc;
+
+}
+
+.box-yellow{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box-green{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box-cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.btn{
+    justify-self: start;
+    border: none;
+    background-color: #fff;
+    justify-content: start;
+    padding: 1rem 3rem; 
+    border-radius: 50px;
+    cursor: pointer;
+
+    margin-top: 5rem;
+
+    transition: all .2s;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn-yellow{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-green{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-cyan{
+    color: hsl(179, 100%, 13%);
+}
+
+.paragraph{
+    justify-items: start;
+    align-self: end;
+
+    color: hsla(0, 0%, 100%, .75);
+}
+
+.heading-1{
+    font-family: 'Big Shoulders Display', cursive;
+}
